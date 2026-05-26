@@ -1,6 +1,6 @@
-import Navbar from "../components/Navbar"
-import AppRoutes from "../routes/AppRoutes"
-import Footer from "../components/Footer"
+import Navbar from "../components/Navbar";
+import AppRoutes from "../routes/AppRoutes";
+import Footer from "../components/Footer";
 
 export default function Layout() {
   return (
@@ -9,5 +9,5 @@ export default function Layout() {
       <AppRoutes />
       <Footer />
     </div>
-  )
+  );
 }

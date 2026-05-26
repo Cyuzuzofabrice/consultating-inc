@@ -1,6 +1,4 @@
-import { BrowserRouter } from "react-router-dom"
-import { Routes, Route } from "react-router-dom"
-import Menu from "./pages/Menu";
+import { BrowserRouter } from "react-router-dom";
 import Layout from "./layout/Layout";
 
 export default function App() {
@@ -8,5 +6,5 @@ export default function App() {
     <BrowserRouter>
       <Layout />
     </BrowserRouter>
-  )
+  );
 }
