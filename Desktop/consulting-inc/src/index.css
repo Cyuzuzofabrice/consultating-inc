@@ -1,0 +1,9 @@
+﻿@import "./styles/layout.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
